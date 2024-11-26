@@ -1,0 +1,73 @@
+* 
+{
+    user-select: none;
+    pointer-events: none;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+html {
+    background-image: url(img/mainBackground.jpg);
+}
+
+nav {
+    display: flex;
+
+    h1 {
+        color: antiquewhite;
+        margin: auto;
+        font-size: 85px;
+        /* change font */
+    }
+
+    #menu-opener {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        display: left;
+        margin-left: 50px;
+    }
+
+    #logo {
+        width: 100px;
+        background-color: aqua;
+        display: right;
+        margin-right: 50px;
+    }
+}
+
+#cars
+{
+    padding-top: 50px;
+    margin: auto;
+    width: 1300px;
+
+    .div-top{
+        height: 5px;
+        background-color: white;
+    }
+
+    img {
+        width: inherit;
+        height: 650px;
+        object-fit: cover;
+        position: relative;
+        z-index: 0;
+    }
+
+    h1{
+        position: absolute;
+        color:aquamarine;
+        z-index: 1;
+    }
+}
+
+aside {
+    font-size: 150px;
+    a{
+        pointer-events: all;
+    }
+}
