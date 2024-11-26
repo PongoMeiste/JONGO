@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="/Games/styles/hangman.css">
+</head>
+
+<body>
+    <div id="game">
+        <h1>Hangman</h1>
+        <canvas id="hangman" width="200" height="250"></canvas>
+        <p id="word"></p>
+        <p id="message"></p>
+        <p>Wrong guesses: <span id="wrong-guesses">0</span>/6</p>
+        <div id="letters"></div>
+        <button id="restart" style="display:none;">Restart</button>
+    </div>
+    <script src="/Games/java/hangman.js"></script>
+</body>
+
+</html>
