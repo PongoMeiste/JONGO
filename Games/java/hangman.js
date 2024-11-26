@@ -22,7 +22,7 @@ const WORD_LIST = [
     "enlighten", "flourishing", "grateful", "hug", "inspire", "joyous", "kindness", 
     "lullaby", "marvelous", "nurture", "opulence", "peaceful", "quicksilver", 
     "restoration", "sparkle", "tantalizing", "unity", "vigor", "whimsy", "x-factor", 
-    "yarn", "zealous"
+    "yarn", "zealous", "yern"
   ];
   
   // Game variables
